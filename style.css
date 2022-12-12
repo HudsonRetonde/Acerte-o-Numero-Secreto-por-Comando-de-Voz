@@ -1,0 +1,75 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto:ital,wght@0,100;0,300;0,700;1,500&display=swap'); 
+
+ :root {
+    --font-family1: 'Montserrat', sans-serif;
+    --font-family: 'Roboto', sans-serif; 
+    --primary-color: #10A19D;
+    --btn-hover: #00FFF6;
+    --btn-hover-color: #472183;
+    --diga-um-numero-color: #540375;
+ }
+
+ body {    
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family1);
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTImA8sQbz0guI6QOZ_Yhot351rKjvE2_-esw&usqp=CAU") no-repeat ;
+    background-size: cover;
+ }
+
+ h1 {
+    font-size: 5em;
+ }
+
+ h2 {
+    font-size: 2em;
+    margin-top: 20px;
+ }
+
+ h3 {
+   font-size: 1.8em;
+   margin-top: 20px;
+}
+
+ .mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+ }
+
+ .box {
+    border: 2px solid var(--primary-color);    
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+ }
+
+ .diga-um-numero {
+   color: var(--diga-um-numero-color);
+   font-weight: bolder;
+ }
+
+ .parabens {
+   color: var(--diga-um-numero-color);
+   font-weight: bolder;
+ }
+
+ .btn-jogar {
+   padding: 8px 15px;
+   border: 0;
+   background-color: var(--primary-color);
+   border-radius: 5px;
+   margin-top: 20px;
+   transition: 0.9s;
+ }
+
+ .btn-jogar:hover {
+   background-color: var(--btn-hover);
+   color: var(--btn-hover-color);
+ }
