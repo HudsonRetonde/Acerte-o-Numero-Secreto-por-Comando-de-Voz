@@ -15,5 +15,5 @@ Em caso de sucesso, receberá a mensagem de parabéns e a opção de clicar no b
 
 ![image](https://user-images.githubusercontent.com/100444673/207176153-6860e787-9bbc-4178-8b6e-7574449cfb1f.png)
 
-Visite o deploy do projeto pelo(link)[].
+Visite o deploy do projeto pelo [link](https://hudsonretonde.github.io/Acerte-o-Numero-Secreto-por-Comando-de-Voz/).
 
